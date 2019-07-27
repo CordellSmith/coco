@@ -7,7 +7,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: "Lato", sans-serif}
+  html {
+    font-family: "Lato", sans-serif;
+    background: url("cityscape-sunset.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .image-tile {
+    background: url("laptop-code.jpg") center;
+    background-size: auto;
+  }
 </style>
 <body>
 
@@ -31,27 +40,26 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Page Content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-
-  <!-- Background Image -->
-  <div class="w3-display-container w3-center">
-    <img src="cityscape-dark.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Drake</h3>
-      <p><b>Sunset Downtown</b></p>   
-    </div>
-  </div>
+<div class="w3-content" style="max-width:2000px;margin-top:46px;">
 
   <!-- The Coco Web App Introduction Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">WELCOME TO COCO WEB APPLICATION</h2>
-    <p class="w3-opacity"><i>This is my first react app</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+    <h2 class="w3-wide w3-text-white">WELCOME TO COCO WEB APPLICATION</h2>
+    <p class="w3-opacity w3-text-white"><i>This is my first react app</i></p>
+    <p class="w3-justify w3-text-white">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
       ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 
-  <!-- The Tour Section -->
+  <!-- The Projects Section -->
+  <div class="image-tile" id="projects">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECTS</h2>
+      <p class="w3-opacity w3-center"><i>Working towards greatness</i></p><br>
+    </div>
+  </div>
+
+  <!-- The About Section -->
   <div class="w3-black" id="about">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">ABOUT ME</h2>
