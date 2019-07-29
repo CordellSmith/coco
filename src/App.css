@@ -1,0 +1,11 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+html {
+    background: url("./assets/cityscape-sunset.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .image-tile {
+    background: url("./assets/laptop-programming.jpg") center;
+    background-size: auto;
+  }
