@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Logo from './assets/laptop-programming.jpg';
 import './App.css';
 
+import Footer from './components/Footer';
+
 class App extends Component {
     render() {
         return (
@@ -52,7 +54,8 @@ class App extends Component {
                 </div>
                     
                 {/* <!-- End Page Content --> */}
-                </div>             
+                </div>
+                <Footer/>            
             </div>
         );
     }
