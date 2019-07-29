@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Logo from './assets/laptop-programming.jpg';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -11,12 +10,11 @@ class App extends Component {
                 {/* <!-- Navbar --> */}
                 <div className="w3-top">
                     <div className="w3-bar w3-black w3-card">
-                        <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
                         <a href="#home" className="w3-bar-item w3-button w3-padding-large">HOME</a>
                         <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
                         <a href="#about" className="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
                         <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-                        <a href="javascript:void(0)" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fa fa-search"></i></a>
+                        <a href="#home" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fa fa-search"></i></a>
                     </div>
                 </div>
                 
