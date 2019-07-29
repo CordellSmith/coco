@@ -10,7 +10,7 @@ class App extends Component {
                 <div className="w3-top">
                     <div className="w3-bar w3-black w3-card">
                         <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
-                        <a href="#" className="w3-bar-item w3-button w3-padding-large">HOME</a>
+                        <a href="#home" className="w3-bar-item w3-button w3-padding-large">HOME</a>
                         <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
                         <a href="#about" className="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
                         <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
@@ -28,7 +28,7 @@ class App extends Component {
                 {/* <!-- Page Content --> */}
                 <div className="w3-content" style={{maxWidth:'2000px', marginTop:'46px'}}>
                 
-                {/* <!-- The Coco Web App Introduction Section --> */}
+                {/* <!-- The Home Section --> */}
                 <div className="w3-container w3-content w3-center w3-padding-64" style={{maxWidth:'800px'}} id="home">
                     <h2 className="w3-wide w3-text-white">WELCOME TO COCO WEB APPLICATION</h2>
                     <p className="w3-opacity w3-text-white"><i>This is my first react app</i></p>
@@ -36,9 +36,9 @@ class App extends Component {
                 </div>
                 
                 {/* <!-- The Projects Section --> */}
-                <div className="image-tile" id="projects">
+                <div className="image-tile" id="portfolio">
                     <div className="w3-container w3-content w3-padding-64" style={{maxWidth:'800px'}}>
-                        <h2 className="w3-wide w3-center">PROJECTS</h2>
+                        <h2 className="w3-wide w3-center">PORTFOLIO</h2>
                         <p className="w3-opacity w3-center"><i>Working towards greatness</i></p><br/>
                     </div>
                 </div>
