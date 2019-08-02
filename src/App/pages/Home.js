@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Logo from './assets/laptop-programming.jpg';
-import './App.css';
+import '../App.css';
+
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
@@ -9,16 +10,15 @@ class App extends Component {
                 {/* <!-- Navbar --> */}
                 <div className="w3-top">
                     <div className="w3-bar w3-black w3-card">
-                        <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
-                        <a href="#" className="w3-bar-item w3-button w3-padding-large">HOME</a>
+                        <a href="#home" className="w3-bar-item w3-button w3-padding-large">HOME</a>
                         <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
                         <a href="#about" className="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
                         <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-                        <a href="javascript:void(0)" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fa fa-search"></i></a>
+                        <a href="#home" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fa fa-search"></i></a>
                     </div>
                 </div>
                 
-                {/* <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) --> */}
+                {/* <!-- Navbar on Small Screens --> */}
                 <div id="navDemo" className="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style={{marginTop:'46px'}}>
                     <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large">PORTFOLIO</a>
                     <a href="#about" className="w3-bar-item w3-button w3-padding-large">ABOUT</a>
@@ -28,7 +28,7 @@ class App extends Component {
                 {/* <!-- Page Content --> */}
                 <div className="w3-content" style={{maxWidth:'2000px', marginTop:'46px'}}>
                 
-                {/* <!-- The Coco Web App Introduction Section --> */}
+                {/* <!-- The Home Section --> */}
                 <div className="w3-container w3-content w3-center w3-padding-64" style={{maxWidth:'800px'}} id="home">
                     <h2 className="w3-wide w3-text-white">WELCOME TO COCO WEB APPLICATION</h2>
                     <p className="w3-opacity w3-text-white"><i>This is my first react app</i></p>
@@ -36,9 +36,9 @@ class App extends Component {
                 </div>
                 
                 {/* <!-- The Projects Section --> */}
-                <div className="image-tile" id="projects">
+                <div className="image-tile" id="portfolio">
                     <div className="w3-container w3-content w3-padding-64" style={{maxWidth:'800px'}}>
-                        <h2 className="w3-wide w3-center">PROJECTS</h2>
+                        <h2 className="w3-wide w3-center">PORTFOLIO</h2>
                         <p className="w3-opacity w3-center"><i>Working towards greatness</i></p><br/>
                     </div>
                 </div>
@@ -53,17 +53,7 @@ class App extends Component {
                     
                 {/* <!-- End Page Content --> */}
                 </div>
-
-                {/* <!-- Footer --> */}
-                <footer className="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-                    <i className="fa fa-facebook-official w3-hover-opacity"></i>
-                    <i className="fa fa-instagram w3-hover-opacity"></i>
-                    <i className="fa fa-snapchat w3-hover-opacity"></i>
-                    <i className="fa fa-pinterest-p w3-hover-opacity"></i>
-                    <i className="fa fa-twitter w3-hover-opacity"></i>
-                    <i className="fa fa-linkedin w3-hover-opacity"></i>
-                    <p className="w3-medium">Socials</p>
-                </footer>             
+                <Footer/>            
             </div>
         );
     }
