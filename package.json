@@ -1,5 +1,5 @@
 {
-  "name": "cocowebapp",
+  "name": "coco-web-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "webpack": "^4.29.6"
   },
   "scripts": {
-    "server-on": "node src/index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +29,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "proxy": "http://localhost:1337"
 }
