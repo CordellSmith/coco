@@ -10,6 +10,7 @@
     "webpack": "^4.29.6"
   },
   "scripts": {
+    "server-on": "node src/index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,6 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "http://localhost:3000"
+  }
 }
