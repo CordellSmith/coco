@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Home() {
   return (
     <div className="w3-content" style={{maxWidth:'2000px', marginTop:'46px'}}>

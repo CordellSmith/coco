@@ -11,7 +11,14 @@ html {
   background-size: cover;
 }
 
+#myFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 /* Social media icons */
-footer.w3-container i.fa {
+div.w3-container i.fa {
   padding: 0px 10px 0px 10px;
 }
+
