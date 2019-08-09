@@ -1,9 +1,9 @@
 import React from 'react';
 
 function About() {
-  return(
-    <div id="coco-container">
-      <div id="coco-content">
+  return (
+    <div  className="coco-container">
+      <div className="coco-banner">
         <h2>ABOUT ME</h2>
         <i>Everything you need to know</i>
       </div>

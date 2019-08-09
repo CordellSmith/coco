@@ -1,14 +1,20 @@
 import React from 'react';
+import CocoCard from '../components/Card';
 
 function Portfolio() {
-  return(
-    <div id="coco-container">
-      <div className="portfolio-background" id="coco-content">
+  return (
+    <div className="coco-container">
+      <div className="coco-banner" id="portfolio-background">
         <h2>PORTFOLIO</h2>
         <i>Working towards greatness</i>
+      </div>
+      <div id="coco-cards-container">
+        <div><CocoCard /></div>
+        <div><CocoCard /></div>
+        <div><CocoCard /></div>
       </div>
     </div>
   );
 }
-
+    
 export default Portfolio;
