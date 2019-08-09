@@ -7,28 +7,53 @@ html {
   background-size: cover;
 }
 
-.portfolio-background {
-  background: url("./assets/laptop-programming.jpg") no-repeat center;
+#portfolio-background {
+  background: url("./assets/laptop-programming-resized.jpg") no-repeat center;
   background-size: cover;
 }
 
-#coco-container {
-  max-width: 2000px;
+.coco-banner {
   margin-top: 46px;
+  padding: 30px 0 30px 0;
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-#coco-content {
+  max-width: auto;
   text-align: center;
   height: max-content;
 }
 
-#coco-content h2 {
+.coco-container {
+}
+
+.coco-content {
+  background-color: rgba(0, 255, 255, 0.5);
+  padding-bottom: 20px;
+  text-align: center;
+  height: max-content;
+}
+
+.coco-content h2 {
   padding-top: 50px;
 }
 
-#coco-content p {
+.coco-content p {
   padding: 0px 400px 0px 400px;
+}
+
+#coco-cards-container {
+  text-align: center;
+}
+
+#coco-cards-container > div {
+  width: 220px;
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#coco-cards-container:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
 }
 
 #coco-footer {

@@ -1,9 +1,9 @@
 import React from 'react';
 
 function Contact() {
-  return(
-    <div id="coco-container">
-      <div id="coco-content">
+  return (
+    <div className="coco-container">
+      <div className="coco-banner">
         <h2>CONTACT</h2>
         <i>cordell-smith@outlook.com</i>
       </div>
