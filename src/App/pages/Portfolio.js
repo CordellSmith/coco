@@ -3,7 +3,7 @@ import CocoCard from '../components/Card';
 
 function Portfolio() {
   return (
-    <div className="coco-container">
+    <div>
       <div className="coco-banner" id="portfolio-background">
         <h2>PORTFOLIO</h2>
         <i>Working towards greatness</i>

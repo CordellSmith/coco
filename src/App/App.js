@@ -8,10 +8,16 @@ import '../App/App.css';
 
 function App() {
   return (
-    <div>
+    <div className="coco-container">
+      <div className="coco-header">
         <Navbar />
+      </div>
+      <div className="coco-body">
         <Routes />
+      </div>
+      <div className="coco-footer">
         <Footer />
+      </div>
     </div>
   );
 }

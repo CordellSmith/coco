@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="coco-container">
+    <div>
       <div className="coco-banner">
         <h2>WELCOME TO COCO WEB APPLICATION</h2>
         <i>This is my first react app</i>
