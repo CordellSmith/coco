@@ -4,7 +4,7 @@ import CocoCard from '../components/Card';
 function Portfolio() {
   return (
     <div>
-      <div className="coco-banner" id="portfolio-background">
+      <div className="coco-banner">
         <h2>PORTFOLIO</h2>
         <i>Working towards greatness</i>
       </div>
