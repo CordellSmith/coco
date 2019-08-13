@@ -2,17 +2,42 @@
 @import 'https://www.w3schools.com/w3css/4/w3.css';
 /* @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'; */
 
-.coco-container {
-  min-height: 100%;
-  position: relative;
-}
-
 html, body {
   background: url("./assets/cityscape-sunset.jpg") no-repeat center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+.coco-container {
+  min-height: 100%;
+  position: relative;
+}
+
+.coco-header ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.coco-header li {
+  display: inline;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.coco-header li a:link {
+  text-decoration: none;
+}
+
+#navbar-text {
+  font-size: 26px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .coco-body {
@@ -32,7 +57,6 @@ html, body {
 }
 
 .coco-banner {
-  margin-top: 46px;
   padding: 30px 0 30px 0;
   background-color: rgba(255, 255, 255, 0.5);
   max-width: auto;
