@@ -5,8 +5,8 @@ function Portfolio() {
   return (
     <div>
       <div className="coco-banner">
-        <h2>PORTFOLIO</h2>
-        <i>Working towards greatness</i>
+        <h2>Portfolio</h2>
+        <i>Delivering Excellence</i>
       </div>
       <div id="coco-cards-container">
         <div><CocoCard /></div>
