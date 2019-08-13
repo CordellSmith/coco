@@ -21,7 +21,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .coco-header li {
@@ -41,14 +41,66 @@ html, body {
 }
 
 .coco-body {
-  padding-bottom: 120px;   /* Height of the footer */
+  padding-bottom: 120px;
 }
 
+/* Footer */
 .coco-footer {
   position: fixed;
+  text-align: center;
   bottom: 0;
   width: 100%;
   height: 120px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.coco-footer p {
+  margin: 0;
+  padding: 50px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+/* Media Icons */
+.media-icons {
+  
+}
+
+.media-icon {
+  display: inline;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0px 15px 10px 15px;
+}
+
+.facebook-mi {
+  background: url("./assets/facebook_icon.png") no-repeat center;
+  background-size: 95%;
+}
+
+.linkedin-mi {
+  background: url("./assets/linkedin_icon.png") no-repeat center;
+  background-size: 95%;
+}
+
+.github-mi {
+  background: url("./assets/github_icon.png") no-repeat center;
+  background-size: 95%;
+}
+
+.instagram-mi {
+  background: url("./assets/instagram_icon.png") no-repeat center;
+  background-size: 95%;
+}
+
+.twitter-mi {
+  background: url("./assets/twitter_icon.png") no-repeat center;
+  background-size: 95%;
+}
+
+.coco-footer i {
+  text-align: center;
 }
 
 #portfolio-background {
@@ -58,14 +110,19 @@ html, body {
 
 .coco-banner {
   padding: 30px 0 30px 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   max-width: auto;
   text-align: center;
   height: max-content;
 }
 
+.coco-banner h2 {
+  font-size: 38px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .coco-content {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
   text-align: center;
   height: max-content;
@@ -78,6 +135,7 @@ html, body {
 .coco-content p {
   margin: 0;
   padding: 0px 400px 0px 400px;
+  color: white;
 }
 
 #coco-cards-container {
