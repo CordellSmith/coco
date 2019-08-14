@@ -1,6 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @import 'https://www.w3schools.com/w3css/4/w3.css';
 /* @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'; */
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
 
 html, body {
   background: url("./assets/cityscape-sunset.jpg") no-repeat center fixed;
@@ -18,17 +19,20 @@ html, body {
 .coco-header ul {
   list-style-type: none;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 400px 0 400px;
+  padding: 10px 0 0 0;
   width: auto;
-  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .coco-header li {
   display: inline;
-  color: #000;
+  color: rgb(0, 0, 0);
   padding: 8px 16px;
   text-decoration: none;
+}
+
+.coco-header li:hover {
+  color: rgba(255, 245, 102, 0.781);
 }
 
 .coco-header li a:link {
@@ -37,7 +41,7 @@ html, body {
 
 #navbar-text {
   font-size: 26px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Volkhov', sans-serif;
 }
 
 .coco-body {
@@ -58,49 +62,52 @@ html, body {
   margin: 0;
   padding: 50px;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
+  font-family: 'Volkhov', sans-serif;
+  color: rgba(0, 0, 0, 1.0);
 }
 
 /* Media Icons */
 .media-icons {
-  
+  margin: auto;
+  width: 200px;
+  height: 40px;
 }
 
 .media-icon {
-  display: inline;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 0px 15px 10px 15px;
+  opacity: 0.5;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin: auto;
+}
+
+.media-icon:hover {
+  opacity: 1;
 }
 
 .facebook-mi {
   background: url("./assets/facebook_icon.png") no-repeat center;
-  background-size: 95%;
+  background-size: 75%;
 }
 
 .linkedin-mi {
   background: url("./assets/linkedin_icon.png") no-repeat center;
-  background-size: 95%;
+  background-size: 75%;
 }
 
 .github-mi {
   background: url("./assets/github_icon.png") no-repeat center;
-  background-size: 95%;
+  background-size: 75%;
 }
 
 .instagram-mi {
   background: url("./assets/instagram_icon.png") no-repeat center;
-  background-size: 95%;
+  background-size: 75%;
 }
 
 .twitter-mi {
   background: url("./assets/twitter_icon.png") no-repeat center;
-  background-size: 95%;
-}
-
-.coco-footer i {
-  text-align: center;
+  background-size: 75%;
 }
 
 #portfolio-background {
@@ -110,7 +117,7 @@ html, body {
 
 .coco-banner {
   padding: 30px 0 30px 0;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0.3),rgba(225, 255, 255, 0.3), rgba(0, 0, 0, 0.0));
   max-width: auto;
   text-align: center;
   height: max-content;
@@ -118,12 +125,10 @@ html, body {
 
 .coco-banner h2 {
   font-size: 38px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Volkhov', sans-serif;
 }
 
 .coco-content {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding-bottom: 20px;
   text-align: center;
   height: max-content;
 }
@@ -133,8 +138,7 @@ html, body {
 }
 
 .coco-content p {
-  margin: 0;
-  padding: 0px 400px 0px 400px;
+  margin: 0 100px 0 100px;
   color: white;
 }
 
