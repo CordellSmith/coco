@@ -16,26 +16,28 @@ html, body {
   position: relative;
 }
 
+.coco-header {
+}
+
 .coco-header ul {
   list-style-type: none;
   text-align: center;
-  margin: 0 400px 0 400px;
-  padding: 10px 0 0 0;
-  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .coco-header li {
   display: inline;
   color: rgb(0, 0, 0);
-  padding: 8px 16px;
+  padding: 20px 15px 7px 15px;
   text-decoration: none;
 }
 
 .coco-header li:hover {
-  color: rgba(255, 245, 102, 0.781);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.coco-header li a:link {
+.coco-header li a {
   text-decoration: none;
 }
 
@@ -46,6 +48,7 @@ html, body {
 
 .coco-body {
   padding-bottom: 120px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Footer */
@@ -55,7 +58,6 @@ html, body {
   bottom: 0;
   width: 100%;
   height: 120px;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .coco-footer p {
@@ -74,7 +76,7 @@ html, body {
 }
 
 .media-icon {
-  opacity: 0.5;
+  opacity: 1;
   display: inline-block;
   height: 35px;
   width: 35px;
@@ -82,7 +84,7 @@ html, body {
 }
 
 .media-icon:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .facebook-mi {
@@ -116,8 +118,6 @@ html, body {
 }
 
 .coco-banner {
-  padding: 30px 0 30px 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0.3),rgba(225, 255, 255, 0.3), rgba(0, 0, 0, 0.0));
   max-width: auto;
   text-align: center;
   height: max-content;
@@ -126,6 +126,7 @@ html, body {
 .coco-banner h2 {
   font-size: 38px;
   font-family: 'Volkhov', sans-serif;
+  margin: 0;
 }
 
 .coco-content {
@@ -151,7 +152,7 @@ html, body {
   padding-top: 20px;
   display: inline-block;
   vertical-align: top;
-  background-color: rgba(220, 200, 10, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #coco-cards-container:after {
@@ -160,8 +161,15 @@ html, body {
   display: inline-block;
 }
 
+div .h5 {
+  color: white;
+}
+
+div p {
+  color: white;
+}
+
 /* Social media icons */
 div.w3-container i.fa {
   padding: 0px 10px 0px 10px;
 }
-
