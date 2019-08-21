@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
 
 html, body {
-  background: url("./assets/cityscape-sunset.jpg") no-repeat center fixed;
+  /* background: url("./assets/cityscape-sunset.jpg") no-repeat center fixed; */
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -16,34 +16,48 @@ html, body {
   position: relative;
 }
 
+.column {
+  float: left;
+}
+
+.left {
+  width: 15%;
+  height: 100vh;
+  background-color: rgba(119, 181, 238, 0.45);
+}
+
+.right {
+  width: 85%;
+}
+
 .coco-header {
 }
 
-.coco-header ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+.nav-div {
 }
 
-.coco-header li {
-  display: inline;
-  color: rgb(0, 0, 0);
-  padding: 20px 15px 7px 15px;
+.nav-div ul {
+  margin: auto;
+  width: 100%;
+}
+
+li {
+  /* padding: 1em; */
+  width: auto;
   text-decoration: none;
+  font-family: 'Volkhov', sans-serif;
 }
 
-.coco-header li:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.nav-div li:hover {
+  background-color: rgb(197, 11, 11);
 }
 
-.coco-header li a {
+.nav-div li a {
   text-decoration: none;
 }
 
 #navbar-text {
   font-size: 26px;
-  font-family: 'Volkhov', sans-serif;
 }
 
 .coco-body {
@@ -140,7 +154,7 @@ html, body {
 
 .coco-content p {
   margin: 0 100px 0 100px;
-  color: white;
+  color: black;
 }
 
 #coco-cards-container {

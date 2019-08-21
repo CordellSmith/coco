@@ -9,14 +9,16 @@ import '../App/App.css';
 function App() {
   return (
     <div className="coco-container">
-      <div className="coco-header">
+      <div className="column left">
         <Navbar />
       </div>
-      <div className="coco-body">
-        <Routes />
-      </div>
-      <div className="coco-footer">
-        <Footer />
+      <div className="column right">
+        <div className="coco-body">
+          <Routes />
+        </div>
+        <div className="coco-footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );
