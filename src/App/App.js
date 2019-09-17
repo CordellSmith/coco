@@ -16,9 +16,7 @@ function App() {
         <div className="coco-body">
           <Routes />
         </div>
-        <div className="coco-footer">
           <Footer />
-        </div>
       </div>
     </div>
   );
